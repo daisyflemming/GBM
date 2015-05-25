@@ -1,5 +1,3 @@
-Hi Ethan,
-
 I have attached a test.sh to test 6 cases
 
 Test Case 1: no geneSymbol
@@ -17,6 +15,3 @@ Since this is a simple application with a fixed set of data. I did not implement
 
 I have compiled my application with java 1.8.0_40. If you do not have this version, please use recompile.sh to compile the code with your default java compiler. The class created will be located at out/production/gbm_summarize/com/daisyflemming/
 
-That's all. Thanks. :)
-
-Daisy
