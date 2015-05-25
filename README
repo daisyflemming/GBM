@@ -1,0 +1,22 @@
+Hi Ethan,
+
+I have attached a test.sh to test 6 cases
+
+Test Case 1: no geneSymbol
+Test Case 2: with one gene
+Test Case 3: with multiple valid genes
+Test Case 4: with a invalid gene in the mix
+Test Case 5: with Glioblastoma TP53 Pathway (4 genes)
+Test Case 6: with Glioblastoma RTK/Ras/PI3K/AKT Signaling (17 genes)
+
+Please be sure to set execution permission for both test.sh and gbm_summarize.sh before running them.
+
+./test.sh will run all 6 cases. I have also attached the result in testReport.txt for your reference.
+
+Since this is a simple application with a fixed set of data. I did not implement Apache Commons CLI. If this is want to would like me to do, please let me know so I can make corrections.
+
+I have compiled my application with java 1.8.0_40. If you do not have this version, please use recompile.sh to compile the code with your default java compiler. The class created will be located at out/production/gbm_summarize/com/daisyflemming/
+
+That's all. Thanks. :)
+
+Daisy

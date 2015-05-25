@@ -1,0 +1,77 @@
+--------------------------------------------------------------
+Test Case 1: no geneSymbol
+
+Please enter at least one gene symbol as argument
+
+Usage: ./gbm_summarize.sh [geneSymbols]
+   e.g. ./gbm_summarize.sh TP53
+        ./gbm_summarize.sh TP53 MDM2
+
+--------------------------------------------------------------
+Test Case 2: with one gene
+
+TP53 is mutated in 29% of all cases.
+TP53 is copy number altered in 2% of all cases.
+Total % of cases where TP53 is altered by either mutation or copy number alteration: 30% of all cases.
+
+--------------------------------------------------------------
+Test Case 3: with multiple valid genes
+
+TP53 is altered in 30% of cases.
+MDM2 is altered in 10% of cases.
+MDM4 is altered in 10% of cases.
+
+The gene set is altered in 47% of all cases.
+
+
+--------------------------------------------------------------
+Test Case 4: with a invalid gene in the mix
+When processing gbm_tcga_mutations, the following warning was observed:
+# Warning:  Unknown gene:  TP
+When processing gbm_tcga_gistic, the following warning was observed:
+# Warning:  Unknown gene:  TP
+
+TP53 is altered in 30% of cases.
+PTEN is altered in 41% of cases.
+RB1 is altered in 11% of cases.
+
+The gene set is altered in 57% of all cases.
+
+
+We do not have data for the following genes:
+ TP
+--------------------------------------------------------------
+Test Case 5: with Glioblastoma TP53 Pathway (4 genes)
+
+CDKN2A is altered in 61% of cases.
+MDM2 is altered in 10% of cases.
+MDM4 is altered in 10% of cases.
+TP53 is altered in 30% of cases.
+
+The gene set is altered in 89% of all cases.
+
+
+--------------------------------------------------------------
+Test Case 6: with Glioblastoma RTK/Ras/PI3K/AKT Signaling (17 genes)
+
+EGFR is altered in 55% of cases.
+ERBB2 is altered in 1% of cases.
+PDGFRA is altered in 15% of cases.
+MET is altered in 3% of cases.
+KRAS is altered in 2% of cases.
+NRAS is altered in 0% of cases.
+HRAS is altered in 1% of cases.
+NF1 is altered in 14% of cases.
+SPRY2 is altered in 0% of cases.
+FOXO1 is altered in 1% of cases.
+FOXO3 is altered in 1% of cases.
+AKT1 is altered in 1% of cases.
+AKT2 is altered in 0% of cases.
+AKT3 is altered in 3% of cases.
+PIK3R1 is altered in 12% of cases.
+PIK3CA is altered in 12% of cases.
+PTEN is altered in 41% of cases.
+
+The gene set is altered in 93% of all cases.
+
+
